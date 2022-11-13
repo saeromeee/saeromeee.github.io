@@ -62,7 +62,7 @@
 
   /**
    * Scrolls to an element with header offset
-   */
+   */ //이게 메뉴 누르면 해당 요소로 이동하는 스크립트
   const scrollto = (el) => {
     let elementPos = select(el).offsetTop
     window.scrollTo({
